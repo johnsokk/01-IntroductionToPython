@@ -130,7 +130,7 @@ boris.backward(300)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -157,6 +157,9 @@ boris.backward(300)
 tweek = rg.SimpleTurtle()
 tweek.pen = rg.Pen('green', 10)
 tweek.forward(100)
+tweek.right(90)
+tweek.forward(200)
+tweek.speed(300)
 
 ###############################################################################
 #
