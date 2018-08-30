@@ -154,8 +154,9 @@ boris.backward(300)
 #   As always, test by running the module.
 #
 ###############################################################################
-tweek = rg.SimpleTurtle
+tweek = rg.SimpleTurtle()
 tweek.pen = rg.Pen('green', 10)
+tweek.forward(100)
 
 ###############################################################################
 #
