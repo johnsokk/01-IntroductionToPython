@@ -27,6 +27,19 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 
-tweek= rg.SimpleTurtle()
-tweek.right(100)
+import rosegraphics as rg
+
+tweek = rg.SimpleTurtle('turtle')
+tweek.pen = rg.Pen('green', 10)
+tweek.forward(100)
+tweek.right(45)
+tweek.forward(25)
+tweek.backward(25)
+tweek.left(90)
+tweek.forward(25)
+tweek.backward(25)
+tweek.right(45)
+tweek.backward(100)
+
+
 ###############################################################################
