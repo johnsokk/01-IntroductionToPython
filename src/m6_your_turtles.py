@@ -31,6 +31,7 @@ import rosegraphics as rg
 
 tweek = rg.SimpleTurtle('turtle')
 tweek.pen = rg.Pen('green', 10)
+tweek.speed = 10
 tweek.forward(100)
 tweek.right(45)
 tweek.forward(25)
@@ -40,6 +41,13 @@ tweek.forward(25)
 tweek.backward(25)
 tweek.right(45)
 tweek.backward(100)
+tweek.left(135)
+tweek.forward(25)
+tweek.backward(25)
+tweek.left(90)
+tweek.forward(25)
+tweek.backward(25)
+
 
 
 ###############################################################################
