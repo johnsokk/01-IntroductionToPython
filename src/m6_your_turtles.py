@@ -29,25 +29,23 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 
 import rosegraphics as rg
 
+window = rg.TurtleWindow()
+
 tweek = rg.SimpleTurtle('turtle')
 tweek.pen = rg.Pen('green', 10)
-tweek.speed = 10
-tweek.forward(100)
-tweek.right(45)
-tweek.forward(25)
-tweek.backward(25)
-tweek.left(90)
-tweek.forward(25)
-tweek.backward(25)
-tweek.right(45)
-tweek.backward(100)
-tweek.left(135)
-tweek.forward(25)
-tweek.backward(25)
-tweek.left(90)
-tweek.forward(25)
-tweek.backward(25)
+tweek.speed = 1
+for k in range(8):
+    tweek.forward(100)
+    tweek.right(45)
+    tweek.forward(25)
+    tweek.backward(25)
+    tweek.left(90)
+    tweek.forward(25)
+    tweek.backward(25)
+    tweek.right(45)
+    tweek.backward(100)
+    tweek.left(45)
 
-
+window.close_on_mouse_click()
 
 ###############################################################################
